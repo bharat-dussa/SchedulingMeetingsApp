@@ -1,0 +1,46 @@
+/* 
+.list-email {grid-area:email;}
+.list-name {grid-area:name;}
+.list-mobile {grid-area:mobile;}
+.list-child {grid-area:child;}
+.list-childage {grid-area:childage;}
+.list-submit {grid-area:submit;}
+.list-coursename {grid-area:coursename;} */
+
+.App{
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 450px;
+  align-items: center;
+  grid-template-rows: 2fr auto;
+  text-align: center;
+  align-items: center;
+  padding: 100px;
+  -moz-box-shadow: 3px 3px 9px rgb(51, 49, 49);
+  -webkit-box-shadow: 3px 3px 9px rgb(51, 49, 49);
+  box-shadow: 3px 3px 9px  rgb(51, 49, 49);
+
+}
+.logo{
+  width:100px;
+  height: 100px;
+  margin-left: 760px;
+  margin-top: 1px;
+}
+
+.form-container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.label-left{
+  text-align:right;
+  
+  
+}
+
+.form-control{
+  padding-right: 32px !important;
+}
